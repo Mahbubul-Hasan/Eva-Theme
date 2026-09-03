@@ -1,0 +1,21 @@
+/* Hide tab close button on all tabs until hovered */
+.tab:not(:hover) .tab-actions,
+.tab:not(:hover) .codicon-close,
+.tab:not(:hover) [aria-label*="Close"],
+.tab:not(:hover) .action-item:has(.codicon-close) {
+  display: none !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Show tab close button only when hovering that specific tab */
+.tab:hover .tab-actions,
+.tab:hover .codicon-close,
+.tab:hover [aria-label*="Close"],
+.tab:hover .action-item:has(.codicon-close) {
+  display: flex !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+}
