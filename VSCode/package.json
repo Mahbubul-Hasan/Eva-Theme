@@ -1,98 +1,94 @@
 {
-    "name": "eva-theme",
-    "displayName": "Eva Theme",
-    "description": "A comfortable and semantic theme.",
-    "version": "2.9.1",
-    "publisher": "fisheva",
-    "license": "SEE LICENSE IN<LICENSE.md>",
-    "icon": "eva.jpg",
-    "homepage": "https://github.com/fisheva/Eva-Theme",
-    "bugs": {
-        "url": "https://github.com/fisheva/Eva-Theme/issues"
-    },
-    "repository": {
-        "type": "git",
-        "url": ""
-    },
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "extensionKind": [
-        "ui",
-        "workspace"
+  "name": "tanweer-theme",
+  "displayName": "Tanweer Theme",
+  "description": "A comfortable and semantic theme customized with deep dark #101010 tones.",
+  "version": "1.0.0",
+  "publisher": "mahbubul",
+  "license": "SEE LICENSE IN<LICENSE.md>",
+  "icon": "eva.jpg",
+  "homepage": "https://github.com/Mahbubul-Hasan/Tanweer-Theme",
+  "bugs": {
+    "url": "https://github.com/Mahbubul-Hasan/Tanweer-Theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mahbubul-Hasan/Tanweer-Theme.git"
+  },
+  "engines": {
+    "vscode": "^1.63.0"
+  },
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "capabilities": {
+    "virtualWorkspaces": true
+  },
+  "galleryBanner": {
+    "color": "#EBEEF5",
+    "theme": "light"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Tanweer Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tanweer-Dark.json"
+      },
+      {
+        "label": "Tanweer Dark Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tanweer-Dark-Bold.json"
+      },
+      {
+        "label": "Tanweer Dark Italic",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tanweer-Dark-Italic.json"
+      },
+      {
+        "label": "Tanweer Dark Italic Bold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Tanweer-Dark-Italic-Bold.json"
+      },
+      {
+        "label": "Tanweer Light",
+        "uiTheme": "vs",
+        "path": "./themes/Tanweer-Light.json"
+      },
+      {
+        "label": "Tanweer Light Bold",
+        "uiTheme": "vs",
+        "path": "./themes/Tanweer-Light-Bold.json"
+      },
+      {
+        "label": "Tanweer Light Italic",
+        "uiTheme": "vs",
+        "path": "./themes/Tanweer-Light-Italic.json"
+      },
+      {
+        "label": "Tanweer Light Italic Bold",
+        "uiTheme": "vs",
+        "path": "./themes/Tanweer-Light-Italic-Bold.json"
+      }
     ],
-    "categories": [
-        "Themes",
-        "Other"
-    ],
-    "capabilities": {
-        "virtualWorkspaces": true
-    },
-    "galleryBanner": {
-        "color": "#EBEEF5",
-        "theme": "light"
-    },
-    "contributes": {
-        "themes": [
-            {
-                "label": "Eva Dark",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Eva-Dark.json"
-            },
-            {
-                "label": "Eva Dark Bold",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Eva-Dark-Bold.json"
-            },
-            {
-                "label": "Eva Dark Italic",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Eva-Dark-Italic.json"
-            },
-            {
-                "label": "Eva Dark Italic Bold",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Eva-Dark-Italic-Bold.json"
-            },
-            {
-                "label": "Eva Light",
-                "uiTheme": "vs",
-                "path": "./themes/Eva-Light.json"
-            },
-            {
-                "label": "Eva Light Bold",
-                "uiTheme": "vs",
-                "path": "./themes/Eva-Light-Bold.json"
-            },
-            {
-                "label": "Eva Light Italic",
-                "uiTheme": "vs",
-                "path": "./themes/Eva-Light-Italic.json"
-            },
-            {
-                "label": "Eva Light Italic Bold",
-                "uiTheme": "vs",
-                "path": "./themes/Eva-Light-Italic-Bold.json"
-            }
-        ]
-    },
-    "keywords": [
-        "eva",
-        "dark",
-        "light",
-        "theme",
-        "vscode"
-    ],
-    "sponsor": {
-        "url": "https://github.com/sponsors/fisheva"
-    },
-    "scripts": {
-        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
-    },
-    "terminal.integrated.minimumContrastRatio": 1,
-    "__metadata": {
-        "id": "a6761011-549f-4561-ae6d-cc9c7a040710",
-        "publisherDisplayName": "fisheva",
-        "publisherId": "ff69a8bd-aad3-463d-9859-8ecfb1484873"
+    "configurationDefaults": {
+      "workbench.editor.tabSizing": "shrink"
     }
+  },
+  "keywords": [
+    "tanweer",
+    "eva",
+    "dark",
+    "light",
+    "theme",
+    "vscode"
+  ],
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -w"
+  },
+  "terminal.integrated.minimumContrastRatio": 1
 }
